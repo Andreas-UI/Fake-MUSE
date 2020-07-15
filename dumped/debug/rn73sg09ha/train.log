@@ -1,0 +1,51 @@
+INFO - 07/15/20 09:38:17 - 0:00:00 - ============ Initialized logger ============
+INFO - 07/15/20 09:38:17 - 0:00:00 - adversarial: True
+                                     batch_size: 64
+                                     cuda: True
+                                     dico_build: S2T
+                                     dico_eval: default
+                                     dico_max_rank: 15000
+                                     dico_max_size: 0
+                                     dico_method: csls_knn_10
+                                     dico_min_size: 0
+                                     dico_threshold: 0
+                                     dis_clip_weights: 0
+                                     dis_dropout: 0.0
+                                     dis_hid_dim: 2048
+                                     dis_input_dropout: 0.1
+                                     dis_lambda: 1
+                                     dis_layers: 2
+                                     dis_most_frequent: 75000
+                                     dis_optimizer: sgd,lr=0.001
+                                     dis_smooth: 0.1
+                                     dis_steps: 5
+                                     emb_dim: 100
+                                     epoch_size: 100
+                                     exp_id: 
+                                     exp_name: debug
+                                     exp_path: C:\Users\ASUS\Desktop\MUSE-master\dumped\debug\rn73sg09ha
+                                     export: txt
+                                     lr_decay: 0.98
+                                     lr_shrink: 0.5
+                                     map_beta: 0.001
+                                     map_id_init: True
+                                     map_optimizer: sgd,lr=0.001
+                                     max_vocab: 521242
+                                     min_lr: 1e-06
+                                     n_epochs: 5
+                                     n_refinement: 5
+                                     normalize_embeddings: center
+                                     seed: -1
+                                     src_emb: data/tcn_embed.vec
+                                     src_lang: zh
+                                     tgt_emb: data/en_embed.vec
+                                     tgt_lang: en
+                                     verbose: 2
+INFO - 07/15/20 09:38:17 - 0:00:00 - The experiment will be stored in C:\Users\ASUS\Desktop\MUSE-master\dumped\debug\rn73sg09ha
+INFO - 07/15/20 09:39:25 - 0:01:08 - Loaded 521242 pre-trained word embeddings.
+INFO - 07/15/20 09:40:04 - 0:01:47 - Loaded 94646 pre-trained word embeddings.
+INFO - 07/15/20 09:40:06 - 0:01:49 - ----> ADVERSARIAL TRAINING <----
+                                     
+                                     
+INFO - 07/15/20 09:40:06 - 0:01:49 - Starting adversarial training epoch 0...
+INFO - 07/15/20 09:40:12 - 0:01:54 - 000000 - Discriminator loss: 0.6930 - 23 samples/s
